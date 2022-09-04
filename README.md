@@ -1,5 +1,15 @@
 # OneClick_HyperionInstall
-  This script will install Hyperion 3.3.5, the Explorer plugin, and the Fix_missing_blocks script
+This will install Hyperion 3.3.5, Explorer plugin, and Fix_Missing_Blocks script
+
+Hyperion: --branch v3.3.5 https://github.com/eosrio/hyperion-history-api.git
+
+  --RabbitMQ
+  --ElasticPass
+  --Kibana
+  
+Explorer Plugin: https://github.com/eosrio/hyperion-explorer-plugin
+
+FixMissingBlocks: https://github.com/bensig
 # How To Run
   Update VARs as required for the chain you are on, notes provided after variables for brief description.
     
