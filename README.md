@@ -7,8 +7,10 @@
   
   To Run - execute the following:
   
-  chmod +x ${ThisFile.sh}
+  chmod +x HyperionInstall.sh
   
-  sudo ./${ThisFile}
+  sudo ./HyperionInstall.sh
+  
+  *During the install you will be required to confirm the username/password you specified in the VARs section
   
   *must be run as either root or sudo
