@@ -1,5 +1,7 @@
 # OneClick_HyperionInstall
-This will install Hyperion 3.3.5, Explorer plugin, and Fix_Missing_Blocks script
+This will install Hyperion 3.3.5, Explorer plugin, and Fix_Missing_Blocks script.
+
+Tested on Ubuntu 18.04 LTS
 
 Hyperion: --branch v3.3.5 https://github.com/eosrio/hyperion-history-api.git
 
