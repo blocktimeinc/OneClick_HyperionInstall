@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ## This will install Hyperion 3.3.5, Explorer plugin, and Fix_Missing_Blocks script [Need to give credit and links to creator(s)]
+## Tested using a full up-to-date Ubuntu 18.04 LTS
 
 ###Define Variables
 #######LEGAL DISCLAIMER#######
