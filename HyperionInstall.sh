@@ -1,11 +1,11 @@
 #!/bin/bash
+## Copyright © 2022 Blocktime Inc.
 
 ## This will install Hyperion 3.3.5, Explorer plugin, and Fix_Missing_Blocks script [Need to give credit and links to creator(s)]
 ## Tested using a full up-to-date Ubuntu 18.04 LTS
 
 ###Define Variables
 #######LEGAL DISCLAIMER#######
-## Copyright © 2022 Blocktime Inc.
 ## Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 ## and associated documentation files (the “Software”), to deal in the Software without restriction,
 ## including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
