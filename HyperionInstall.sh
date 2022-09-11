@@ -271,8 +271,8 @@ fi
 ### END Update the FixMissingBlocks Script
 
 #Create Script to execute The Fix-Missing-Blocks script
-echo "python3 ${HyperionRoot}/scripts/fix_missing_blocks/fix-missing-blocks.py http://elastic:${ElasticPass}@127.0.0.1" > ${HyperionRoot}/fixmissingblocks.sh
-chmod +x ${HyperionRoot}/fixmissingblocks.sh
+echo "python3 ${FullHyperionPath}/scripts/fix_missing_blocks/fix-missing-blocks.py http://elastic:${ElasticPass}@127.0.0.1" > ${FullHyperionPath}/fixmissingblocks.sh
+chmod +x ${FullHyperionPath}/fixmissingblocks.sh
 ##Enc Script Creation
 
 if [[ $CHOWN = 1 ]]; then
