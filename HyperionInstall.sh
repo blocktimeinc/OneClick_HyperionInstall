@@ -1,10 +1,15 @@
 #!/bin/bash
 ## Copyright © 2022 Blocktime Inc.
 
-## This will install Hyperion 3.3.5, Explorer plugin, and Fix_Missing_Blocks script [Need to give credit and links to creator(s)]
+## This will install Hyperion 3.3.5, Explorer plugin, and Fix_Missing_Blocks script
 ## Tested using a full up-to-date Ubuntu 18.04 LTS
+## Hyperion: --branch v3.3.5 https://github.com/eosrio/hyperion-history-api.git
+##  --RabbitMQ
+##  --ElasticPass
+##  --Kibana
+## Explorer Plugin: https://github.com/eosrio/hyperion-explorer-plugin explorer
+## FixMissingBlocks: https://github.com/bensig
 
-###Define Variables
 #######LEGAL DISCLAIMER#######
 ## Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 ## and associated documentation files (the “Software”), to deal in the Software without restriction,
@@ -22,6 +27,7 @@
 ## WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #############################
 
+###Define Variables
 ###Use these settings for creating a Libre Mainnet Hyperion Node
 #ChainToBuild="libre"
 #RabbitMQUser="hyperion" #RabbitMQUser you will use during install
@@ -55,7 +61,6 @@
 #HyperionFolder="/hyperion-history-api" #Folder inside $HyperionRoot
 #HyperionBindIP="127.0.0.1" #Default is to bind to localhost-Need NGINX to FWD - Option to Bind to 0.0.0.0 for LAN access w/o NGINX
 #HyperionHTTPPort="7000" #Default is to bind to 7000 - can change if desired
-
 ###END Define Variables
 
 ##  ONLY CHANGE TEXT BELOW IF YOU KNOW WHAT YOU ARE DOING ##
